@@ -1,0 +1,35 @@
+create Database UserDB
+======================================================================================================
+ Create Table UserLogins (Userid int ,UserName varchar(30),Password varchar(15) )
+
+ insert into UserLogins values('Harish','Harish@123')
+
+ select *From UserLogins
+======================================================================================================
+ create Table UsersRegistration(uid int primary key  identity(1,1) ,FirstName varchar(20),LastName varchar(20),UserName varchar(20),Password varchar(20),ConfirmPassword varchar(20),EmailID varchar(50), Address varchar(max), MobileNumber varchar(12))
+
+ insert into UsersRegistration values('Harish','Yamana','HarishY','Harish@123','Harish@123','yamanaharish@gmail.com','Hyderabad','9581842092')
+
+select *from UsersRegistration
+
+======================================================================================================
+
+ create Proc UserRegisterLogins(@FirstName varchar(20),@LastName varchar(20),@UserName varchar(20),@Password varchar(20),
+ @ConfirmPassword varchar(20),@EmailID varchar(50), @Address varchar(max), @MobileNumber varchar(12), @ERROR VARCHAR(Max) OUT)
+ as begin
+	insert into UsersRegistration (FirstName,LastName,UserName,Password,ConfirmPassword,EmailID,Address,MobileNumber)values
+	(@FirstName,@LastName,@UserName,@Password,@ConfirmPassword,@EmailID,@Address,@MobileNumber)
+
+	DECLARE @Userid int;
+	 SELECT @Userid = uid FROM UsersRegistration
+		insert into UserLogins (Userid,UserName,Password) values(@Userid,@UserName,@Password)
+		SET @ERROR = @UserName + ' Registered Successfully'
+ end
+
+======================================================================================================
+
+DECLARE @ERROR VARCHAR(100);
+
+EXEC UserRegisterLogins 'Harish', 'Yamana', 'HarishY', 'Harish@123', 'Harish@123', 'yamanaharish@gmail.com', 'Hyderabad', '9581842092', @ERROR OUT;
+
+SELECT @ERROR AS 'RegistrationStatus';
