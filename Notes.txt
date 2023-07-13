@@ -20,20 +20,28 @@ https://www.thereformedprogrammer.net/adding-user-impersonation-to-an-asp-net-co
 
 CSS: 
 
-https://remixicon.com/
-
-
-ICONS:
-fa fa icons
-
-https://fontawesome.com/v4/icons/
-
-
 https://mdbootstrap.com/docs/standard/extended/select-dropdown-with-search/
 
 
 
+
+
 ==============================================================================
+
+ICONS:
+==============================================================================
+
+fa fa icons
+
+https://remixicon.com/
+
+https://fontawesome.com/v4/icons/
+
+
+
+https://www.svgrepo.com/svg/373962/pdf
+
+
 
 
 ==============================================================================
