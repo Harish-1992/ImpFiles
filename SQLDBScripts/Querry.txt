@@ -33,3 +33,13 @@ DECLARE @ERROR VARCHAR(100);
 EXEC UserRegisterLogins 'Harish', 'Yamana', 'HarishY', 'Harish@123', 'Harish@123', 'yamanaharish@gmail.com', 'Hyderabad', '9581842092', @ERROR OUT;
 
 SELECT @ERROR AS 'RegistrationStatus';
+
+
+
+/Image Table/
+truncate table Images
+create Table Images(id int identity(1,1) ,FileName  varchar(max),ImageData varbinary)
+select *From Images
+
+ALTER TABLE Images
+ALTER COLUMN ImageData VARBINARY(MAX)
