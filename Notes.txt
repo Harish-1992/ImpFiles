@@ -35,8 +35,23 @@ https://mdbootstrap.com/docs/standard/extended/select-dropdown-with-search/
 
 ==============================================================================
 
+Angular 
+https://duncanhunter.gitbook.io/angular-and-ngrx/2.-create-a-home-component
+
 
 ==============================================================================
+
+
+drop table QRCodeData
+
+
+
+CREATE TABLE QRCodeData (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    ImageName NVARCHAR(100),
+   ImageBytes VARBINARY(MAX),
+    QRCodeImage VARBINARY(MAx),
+);
 
 ==============================================================================
 
