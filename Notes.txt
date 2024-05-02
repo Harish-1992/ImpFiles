@@ -46,6 +46,54 @@ https://www.svgrepo.com/svg/373962/pdf
 
 ==============================================================================
 
+
+
+Encapsulation
+Abastraction
+Inheritance
+Polymorphism
+
+JWT Token
+https://dev.to/kcdchennai/how-jwt-json-web-token-authentication-works-21e7
+
+Middleware
+https://dev.to/ezzylearning/introduction-to-asp-net-core-middleware-2g1g
+
+
+Angular and ASP.NET Core
+https://dev.to/ruidfigueiredo/angular-and-aspnet-core--4m1l
+
+Types of Middleware
+https://medium.com/@shubhadeepchat/net-core-middleware-explained-8c21bf646700
+
+
+
+SolidPrinciples:
+https://dev.to/josuerodriguez98/introduction-to-solid-principles-4o2d
+
+
+designapattern:
+
+https://dev.to/ssanjeevi/design-patterns-interview-notes-3254
+
+
+Design, build, and maintain efficient, reusable, and reliable code
+Integrate data storage solutions
+Ensure the best possible performance, quality, and responsiveness of applications
+Help maintain code quality, organization, and automatization
+Strong understanding of object-oriented programming
+
+Skill for writing reusable libraries
+Knowledge of concurrency patterns
+
+
+Angular:
+
+https://medium.com/@Rushabh_/angular-basic-to-advance-every-concept-explained-part-1-e8f8692e04b3
+
+
+
+LOCALDEV
 ==============================================================================
 
 ==============================================================================
