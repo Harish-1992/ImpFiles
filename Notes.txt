@@ -95,7 +95,45 @@ https://medium.com/@Rushabh_/angular-basic-to-advance-every-concept-explained-pa
 
 LOCALDEV
 ==============================================================================
+To Create Project 
+ 
+		ng new Project Name
 
+For component: 
+
+		ng g c component-name
+For service:
+		ng g s service-name
+		ng generate module module-name  --routing
+For module:
+
+		ng g m module-name 
+		
+To Run Application		
+		 ng serve, 
+		 ng build
+		 ng serve --open
+		 ng serve --port 4200
+		 
+Angular Execution Plan
+		1.angular.json	=> main.ts.
+		2.	platformBrowserDynamic() creates a browser environment and, 
+			bootstrapModule() loads the module.
+			AppModule
+
+		3. app.module.ts
+			routing 
+Routing Explanation
+		
+		
+		
+		
+		My Profile
+			Routing
+			Declartion 	-component
+			imports		-Modules
+			Providers	-Service
+			
 ==============================================================================
 
 ==============================================================================
