@@ -23,9 +23,6 @@ CSS:
 https://mdbootstrap.com/docs/standard/extended/select-dropdown-with-search/
 
 
-
-
-
 ==============================================================================
 
 ICONS:
@@ -38,19 +35,19 @@ https://remixicon.com/
 https://fontawesome.com/v4/icons/
 
 
+svg icons:
 
 https://www.svgrepo.com/svg/373962/pdf
 
 
-
-
 ==============================================================================
 
-Angular 
+Angular  &  ASP.NET Core interview Question
+==============================
+
 https://duncanhunter.gitbook.io/angular-and-ngrx/2.-create-a-home-component
 
-
-
+OOPS:
 Encapsulation
 Abastraction
 Inheritance
@@ -103,7 +100,6 @@ LOCALDEV
 drop table QRCodeData
 
 
-
 CREATE TABLE QRCodeData (
     Id INT PRIMARY KEY IDENTITY(1,1),
     ImageName NVARCHAR(100),
@@ -112,6 +108,8 @@ CREATE TABLE QRCodeData (
 );
 
 ==============================================================================
+Angular :Project Creations
+**************************
 
 To Create Project 
  
@@ -127,6 +125,14 @@ For module:
 
 		ng g m module-name 
 		
+How to install bootstrapModule
+
+https://www.itsolutionstuff.com/post/how-to-install-bootstrap-5-in-angular-16-applicationexample.html
+
+npm install bootstrap --save
+npm install jquery --save
+npm install popper.js --save
+
 To Run Application		
 		 ng serve, 
 		 ng build
@@ -143,8 +149,7 @@ Angular Execution Plan
 			routing 
 Routing Explanation
 		
-		
-		
+				
 		
 		My Profile
 			Routing
@@ -152,6 +157,17 @@ Routing Explanation
 			imports		-Modules
 			Providers	-Service
 			
+
+            rm -rf . angular/cache
+npm cache clear --force
+
+You, May 22, 2023, 10:11 AM
+npm add xxxx --legacy-peer-deps
+
+You, May 22, 2023, 3:51 PM
+https://coreui.io/angular/docs/icons
+
+
 ==============================================================================
 
 ==============================================================================
