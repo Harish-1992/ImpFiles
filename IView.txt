@@ -1,0 +1,88 @@
+C#
+========================
+CLR
+CTS
+Constrctor
+TypeofConstructor
+Inheritances
+Abstact class
+interface
+Polymarphisum
+sealdclass
+pratialclass
+OOPS
+(Encasuplation
+Abstraction
+Inheritance
+polymerphisum)
+Overloading and overring
+const,readonly,Static
+ref and OUT
+Threading
+colletion 
+array and Arraylist
+list 
+Dictonary
+HashTabe
+Generic Collection
+Delegate
+anonymous methods
+Locks
+boxing and unboxing 
+class and object
+different Types of Class
+stringreves in C#
+palindrome in C#
+
+==============================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
